@@ -1,0 +1,57 @@
+img {
+    max-width: 100%;
+}
+
+.red {
+    background: red;
+}
+
+.pink {
+    background: pink;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.black {
+    background: black;
+}
+
+.small-cat {
+    width: 100px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+    .pink {
+    background: aqua;
+}
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .pink {
+    background: brown;
+}
+    .logo {
+        width: 200px; margin: auto;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .pink {
+    background: orange;
+}
+
+}
